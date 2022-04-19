@@ -1,1 +1,0 @@
-select country,avg(goals) as avg_of_goals from players group by country

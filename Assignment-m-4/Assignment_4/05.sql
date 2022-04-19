@@ -1,1 +1,0 @@
-select max(goals) as max_of_goal from players where post='Goalkeeper'
