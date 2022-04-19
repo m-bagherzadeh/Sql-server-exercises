@@ -1,0 +1,1 @@
+select post,sum(goals) as sum_of_goals from players group by post
