@@ -1,0 +1,1 @@
+select country,count(*) as count_of_players from players group by country
