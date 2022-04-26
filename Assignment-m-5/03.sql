@@ -1,0 +1,1 @@
+select p.name from patients as p inner join visits as v on p.id =v.patient_id inner join doctors as d on v.doctor_id=d.id where d.salary>1000

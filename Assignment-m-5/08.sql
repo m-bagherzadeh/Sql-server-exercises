@@ -1,0 +1,1 @@
+delete from patients as p inner join visits as v on v.patient_id=p.id where v.date<2011-01-01

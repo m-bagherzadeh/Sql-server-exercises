@@ -1,0 +1,1 @@
+select name,salary from doctors order by salary desc
