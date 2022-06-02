@@ -1,0 +1,1 @@
+﻿select orders.id as 'کدسفارش',orders.Date as 'تاریخ سفارش' from orders inner join customers on orders.customer_id =customers.ID inner join cities on customers.City_id=cities.ID where cities.Name=N'مشهد';

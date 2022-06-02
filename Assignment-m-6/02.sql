@@ -1,0 +1,1 @@
+﻿select products.name as 'نام کالا',products.Price as 'قیمت' from products inner join orders on orders.product_id=products.ID inner join customers on orders.customer_id=customers.ID where customers.Name=N'مهدیه باقرزاده';
